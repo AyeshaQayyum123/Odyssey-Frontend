@@ -1,3 +1,4 @@
+import { LoginModule } from './modules/login/login.module';
 import { FileComponent } from 'src/app/components/file/file.component';
 import { FileModule } from './modules/file/file.module';
 import { NgModule } from '@angular/core';
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FileModule
+    FileModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
