@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-    selector: 'Button',
+    selector: 'LoginButton',
     templateUrl: './button.component.html',
     styleUrls: ['./button.component.scss']
 
