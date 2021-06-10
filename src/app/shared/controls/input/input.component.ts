@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
     selector: 'Input1',
@@ -7,7 +7,7 @@ import { Component, OnInit } from "@angular/core";
 
 })
 export class InputComponent implements OnInit{
-
+@Input() type: string = "text";
     constructor(){
 
     }
