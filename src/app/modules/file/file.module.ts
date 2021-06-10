@@ -1,19 +1,20 @@
+import { SharedModule } from './../../shared/shared.module';
 import { FileRoutingModule } from './file-routing.module';
 import { NgModule } from "@angular/core";
 import { FileComponent } from "src/app/components/file/file.component";
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { InputComponent } from 'src/app/shared/controls/input/input.component';
+
 
 @NgModule({
     declarations: [
-        FileComponent,
-        InputComponent
+        FileComponent
     ],
     imports: [
         FileRoutingModule,
         CommonModule,
-        FormsModule
+        FormsModule,
+        SharedModule
     ]
 })
 export class FileModule{
