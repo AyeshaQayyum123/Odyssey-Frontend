@@ -1,17 +1,19 @@
 import { Component, OnInit } from "@angular/core";
 
+
 @Component({
-    selector: 'Button',
+    selector: 'datatable',
     templateUrl: './data-table.component.html',
     styleUrls: ['./data-table.component.scss']
 
 })
 export class DataTableComponent implements OnInit{
 
-    constructor(){
-
-    }
+    constructor() { }
     ngOnInit(){
+
 
     }
 }
+
+
