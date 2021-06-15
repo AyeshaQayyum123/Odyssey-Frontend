@@ -8,7 +8,7 @@ import { DashboardComponent } from 'src/app/components/dashboard-layout/dashboar
 @NgModule({
   declarations: [
     DashboardComponent
-    
+  
   ],
   imports: [
     CommonModule,

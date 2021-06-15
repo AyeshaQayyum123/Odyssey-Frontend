@@ -1,13 +1,24 @@
 .progress {
-    display: flex;
+    overflow: visible;
     height: 10px;
-    overflow: hidden;
-    font-size: 3.75rem;
+    width: 5.5rem !important;
     background-color: #e9ecef;
-    border-radius: 5.25rem;
+    .progress-bar {
+      position: relative;
+      border-radius: 4px;
+      overflow: visible;
+      white-space: nowrap;
+      background-color: #6ae18f;
+      transition: width .6s ease;
+      span {
+     color :#7D9EB5;
+        position: absolute;
+        bottom: -20px;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 2px 3px 2px 4px;
+        border-radius: 2px;
+      }
   
-}
-.bg-success {
-    background-color: #34e08e!important;
-
-}
+    }
+  }

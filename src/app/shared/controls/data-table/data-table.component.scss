@@ -140,3 +140,49 @@ line-height: 24px;
 letter-spacing: 0em;
 text-align: left;
 }
+h2.emp-detail{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .page-link {
+        position: relative;
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: 0F2C55;
+        background-color: #0f2c55;
+        border: 1px solid #dee2e6;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .page-link:hover {
+        z-index: 2;
+        color: #ffffff;
+        background-color: #adb5bd;
+        border-color: #f2f2f3;
+    }
+    .has-search .form-control {
+    
+        padding-left: 2.375rem;
+        background: #f8f9fa;
+    }
+    
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #0F2C55;
+    }
+    img.filter-img{
+        vertical-align: middle;
+        border: 1px solid #CED4DA,;
+        border-radius: 2px;
+        padding: 6px;
+    }
