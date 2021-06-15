@@ -1,0 +1,39 @@
+.form-group {
+    margin-bottom: 0px !important;
+	>label {
+		bottom: 34px;
+		left: 15px;
+		position: relative;
+		background-color: white;
+		padding: 0px 5px 0px 5px;
+		font-size: 15px;
+		transition: 0.2s;
+		pointer-events: none;
+        color: #7D9EB5;
+        line-height: 16px;
+        
+	}
+
+}
+.form-control {
+    border: 1px solid #CED4DA !important;
+border: 1px solid #CED4DA;
+box-sizing: border-box;
+border-radius: 4px;
+	&:focus~label {
+		bottom: 55px;
+        font-size: 12px;
+       
+	}
+	&:valid~label {
+		bottom: 55px;
+	}
+}
+
+.form-check-input {
+    margin-top: -3px !important; 
+    margin-left: -16px !important;
+}
+input.form-control{
+    height: 56px !important;
+}
